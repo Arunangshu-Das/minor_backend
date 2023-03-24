@@ -5,9 +5,11 @@ const bcrypt = require("bcryptjs");
 const User=require("./model/user");
 const Medicine=require('./model/allMedicine');
 const Diseases = require("./model/diseases");
+const cors = require("cors");
 const app=express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
+app.use(cors())
 
 app.get("/",(req,res)=>{
     res.send("Minor project 1)Arunangshu 2)Anik 3)Ratul 4)Kisalay");
