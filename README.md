@@ -4,8 +4,8 @@ This is an API for a medicine e-commerce platform. It provides endpoints for use
 
 ## Installation
 
-1. Clone the repository: `git clone <repository-url>`
-2. Navigate to the project directory: `cd <project-directory>`
+1. Clone the repository: `git clone https://github.com/Arunangshu-Das/minor_backend.git`
+2. Navigate to the project directory: `cd minor-backend`
 3. Install the dependencies: `npm install`
 
 ## Configuration
